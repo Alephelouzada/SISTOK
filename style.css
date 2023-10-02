@@ -9,11 +9,12 @@
 }
 
 .menu{
+    justify-content:center;
     margin: 0px;
     text-transform: unset;
     height :50px; 
     padding: 30px;
-    background-color: rgba(194, 194, 194, 0.74);
+    align-self: center;
     
  
 
@@ -22,7 +23,7 @@
 }
 
 .menu > span{
-    padding: 50px;
+    padding: 25px;
     margin:10px;
     justify-content: center;
     align-items: center;
@@ -30,27 +31,81 @@
       /* nav span */
 }
 
-
-div  > img{
-    height: 50vh;
-    background-image: ;
-   background-position: center center;
-   background-size: 100px;
-   background-repeat: no-repeat;
-   
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.hero-content{
+
+    flex: 2;
+    padding: 100px;
+
+}
+.hero h1 {
+    font-size:40px;
+    max-width: 532px;
+    max-height: 112px;
+    height: 50vh;
+  
+}
+.hero p {
+   
+    font-size: 16px;
+    max-width: 527px;
+    margin-bottom: 32px;
+  
+}
+
+.hero-image {
+
+    flex: 4;
+    text-align: center;
+
+}
+
+.hero-image img{
+
+}
+
+.btn-toknow{
+
+    cursor: pointer;
+    padding: 20px 60px;
+    background-color:rgba(0, 0, 255, 0.76);
+    color: white;
+    margin-bottom: 20px;
+}
+
 .btn-login{
     width: 170px;
     padding: 17px;
-
+    color: white;
     border-radius: 10px;
     font-size: 16px;
     font-weight: 500;
 
-    background-color: transparent;
-    cursor: pointer;
-  
-    
+    background-color:rgba(0, 0, 255, 0.76);
+    cursor: pointer;  
+  }
+  .about{
+    display: flex;
+    background-color: rgba(224, 231, 231, 0.87);  
+    font-size: 17px;
+    justify-content: space-around ;
+    align-items: center;
+    -webkit-box-shadow: 0px 21px 249px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 21px 249px 8px rgba(0,0,0,0.75);
+    box-shadow: 0px 21px 249px 8px rgba(0, 0, 0, 0.356);
+    padding: 30px;
+    margin:35px 75px;
+    text-align: center;
+  }
+  .about img {  
+  margin-left:200px ; 
+
   }
 
-
+  
+  
