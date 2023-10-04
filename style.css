@@ -73,9 +73,10 @@
 
     cursor: pointer;
     padding: 20px 60px;
-    background-color:rgba(0, 0, 255, 0.76);
+    background-color:#304F8C;
     color: white;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .btn-login{
@@ -86,26 +87,64 @@
     font-size: 16px;
     font-weight: 500;
 
-    background-color:rgba(0, 0, 255, 0.76);
+    background-color:#304F8C;
     cursor: pointer;  
   }
   .about{
+   
     display: flex;
     background-color: rgba(224, 231, 231, 0.87);  
     font-size: 17px;
-    justify-content: space-around ;
+    justify-content: flex-start ;
     align-items: center;
-    -webkit-box-shadow: 0px 21px 249px 8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 21px 249px 8px rgba(0,0,0,0.75);
-    box-shadow: 0px 21px 249px 8px rgba(0, 0, 0, 0.356);
+    -webkit-box-shadow: 0px 21px 249px 8px rgba(0, 0, 0, 0.164);
+    -moz-box-shadow: 0px 21px 249px 8px rgba(0, 0, 0, 0);
+    box-shadow: 0px 21px 249px 8px rgba(0, 0, 0, 0.253);
     padding: 30px;
-    margin:35px 75px;
+    margin:35px 7px;
     text-align: center;
   }
   .about img {  
   margin-left:200px ; 
 
   }
+  
+  .h1 p{
+    letter-spacing: 1px;
+    margin-bottom: 19PX;
+
+     color:#4C5D73;
+    
+   
+  }
+  .h1{
+
+    margin-left: 110px;
+    max-width:45%;
+    font-size:15px;
+    max-height: 100px;
+  }
+
+  .center img{
+    height: 25px;
+    width: 25px;
+   margin-left:100 ;
+   justify-content: center ;
+   margin-bottom: 200px;
+   margin-left: 200px;
+  }
+  .center{
+    left:100vh ;
+    display: flex; 
+    font-size: 17px;
+    justify-content:center;
+    align-items: center;
+    padding: 16px 0px;
+    text-align: center;
+    
+  }
+
+  
 
   
   
