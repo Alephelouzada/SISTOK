@@ -108,22 +108,32 @@
 
   }
   .about{
-    
+    align-content: center;
+    justify-content: space-evenly;
     display: flex;
     background-color: rgb(255, 255, 255,);  
-    font-size: 17px;
-    justify-content: space;
-    align-items: center;
     -webkit-box-shadow: 0px 21px 249px 8px rgba(167, 164, 164, 0.164);
-    -moz-box-shadow: 0px 21px 249px 8px rgb(0, 0, 0);
-    box-shadow: 0px 21px 249px 8px rgba(219, 209, 209, 0.253);
+    -moz-box-shadow: 0px 21px 249px 8px rgb(114, 94, 94);
+    box-shadow: 0px 21px 249px 8px rgba(219, 209, 209, 0);
     padding: 30px;
-    margin:35px 7px;
-    text-align: center;
+    margin:35px 70px;
+    text-align: left ;
+  }
+  .about span{
+    background: white;
+   
+    font-size: 14px;
+    font-weight:normal;
+  }
+  .about h2{
+    font-size: 17px;
+    font-weight: bold;
   }
   .about img {  
-  margin-left: 300px;
-  justify-content: space-around;
+
+  text-align: center ;
+  justify-content:space-between ;
+  margin: 0px 70px;
   }
   
   .Serviços-text h2{
@@ -148,6 +158,7 @@
 }
 .servicosbotton{
     flex-direction: column;
+    justify-content: space-evenly;
     display: flex;
     margin-left: 30px;
     width: 268px;
@@ -157,12 +168,22 @@
     
     width: 67px;
     height: 67px;
-    padding: 20px;
+    padding: 17px;
 }
 .servicosbotton>p{
     text-align: left;
 }
-
+.btn-sobre{
+  border-color: #304F8C;
+  width: 210px;
+  padding: 10px;
+  color: #304F8C;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color:#ffff;
+  cursor: pointer;  
+}
 
   
   
