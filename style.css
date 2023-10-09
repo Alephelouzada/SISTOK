@@ -135,6 +135,13 @@
   justify-content:space-between ;
   margin: 0px 70px;
   }
+
+  .Serviços-text{
+
+    text-align: left;
+    padding-left: 100px;
+    margin-right: 100px;
+  }
   
   .Serviços-text h2{
      font-size: 14px;
@@ -182,8 +189,79 @@
   font-size: 16px;
   font-weight: 700;
   background-color:#ffff;
-  cursor: pointer;  
+  cursor: pointer;
+    
+}
+.sobre-text>{
+
+}
+.atuação{
+  justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+   
+}
+.atuaçãobutton span{
+  display: flex;
+  font-size: 20px;
+}
+.planos{
+  display: flex;
+}
+.planos h2{
+
+
+  height: 40px;
+  border: 2px solid red;
+}
+.plan-text{
+  border: 2px solid rgba(16, 29, 201, 0.384);
+  flex-direction: column;
+  display: flex;
+  padding: 50px;
+
+}
+.plan-text small{
+  border: 2px solid rgb(31, 179, 17);
+  font-size: 32px;
+  margin-left: 4px;
+  color: #4c5d73;
+  margin-top:-10px ;
+}
+.textfield{
+  border:  2px solid red;
+  background-color: rgba(160, 179, 217, 0.699);
+  width: 100;
+  
+}
+.textfield > p{
+  font-size: 16px;
+  max-width: 527px;
+  margin-bottom: 32px;
+  justify-content: center;
+  display: flex;
+  margin-left: 700px;
+}
+.plan-box {
+  border:  2px solid red;
+ justify-content: center;
+}
+.imagem-1{
+  display: flex;
+  margin-left: 82%;
+}
+.imagem-2{
+  display: flex;
+  justify-content: center;
+}
+.interface img{
+  margin-left: 48%;
+  border:  2px solid red;
 }
 
-  
-  
+.interface p{
+  justify-content: center;
+  display: flex;
+  padding: 50px;
+ 
+}
