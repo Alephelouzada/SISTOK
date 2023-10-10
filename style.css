@@ -19,7 +19,6 @@
   justify-content:space-between;
   align-items: center;
 
-      /* nav span */
 }
 .cadastro{
   display: flex;
@@ -189,7 +188,7 @@
 .about-us-subtitle {
   text-align: left;
   padding-left: 100px;
-  /* Ajuste o espaço à esquerda para começar a partir daqui */
+ 
   margin-right: 100px;
 }
 
@@ -198,7 +197,7 @@
   font-size: 16px;
   color: #4C5D73;
   margin: 0;
-  /* Remova a margem superior padrão */
+ 
   letter-spacing: 1px;
 }
 
@@ -393,67 +392,299 @@
   font-size: 20px;
   justify-content: center;
 }
-.planos{
+.plans-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 48px 85px;
+  margin-bottom: 55px;
 }
-.planos h2{
+
+.plans {
+  flex: 1;
+  padding: 26px;
+  -webkit-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.041);
+  border-radius: 10px;
+  text-align: left;
+  margin: auto;
+  max-width: 300px;
+}
+
+.plans h2 {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 10px 0;
+  color: #111826;
+  margin-bottom: 10px;
+}
 
 
-  height: 40px;
-  border: 2px solid red;
-}
-.plan-text{
-  border: 2px solid rgba(16, 29, 201, 0.384);
+.plan-content {
+  display: flex;
   flex-direction: column;
-  display: flex;
-  padding: 50px;
+  align-items: flex-start;
+  margin-top: auto;
+}
+
+.plan-content p {
+  font-size: 14px;
+  color: #4C5D73;
+  margin-bottom: 30px;
 
 }
-.plan-text small{
-  border: 2px solid rgb(31, 179, 17);
+
+
+.plan-price {
+  display: flex;
+  align-items: center;
+
+}
+
+.plan-price h1 {
   font-size: 32px;
-  margin-left: 4px;
-  color: #4c5d73;
-  margin-top:-10px ;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #111826;
 }
-.textfield{
-  border:  2px solid red;
-  background-color: rgba(160, 179, 217, 0.699);
-  width: 100;
-  
-}
-.textfield > p{
-  font-size: 16px;
-  max-width: 527px;
-  margin-bottom: 32px;
-  justify-content: center;
-  display: flex;
-  margin-left: 700px;
-}
-.plan-box {
-  background-color: #4878b6;
-  border:  2px solid rgb(145, 102, 102);
- justify-content: center;
 
+.plan-price small {
+  font-size: 12px;
+  color: #4C5D73;
+  margin-left: 4px;
+  margin-top: -10px;
+}
+
+
+.plan-box {
+  position: relative;
+ 
+  margin: auto;
+  width: 770px;
+  height: 392px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EAEDF3;
+  border-radius: 13px;
+  margin-bottom: 128px;
 }
 .imagem-1{
-  display: flex;
-  margin-left: 82%;
+  position: absolute;
+    top: -16px;
+    right: 58px;
 }
 .imagem-2{
-  display: flex;
-  justify-content: center;
+    width: 175px;
+    height: 226.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-top: -65px;
 }
 .interface img{
-  margin-left: 48%;
-  border:  2px solid rgb(14, 10, 10);
+  padding: 20px;
+  text-align: center;
+  margin-left:330px ;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #4C5D73;
+  margin-top: -20px;
+  justify-content: center;
+}
+.plan-price-green {
+  display: flex;
+  align-items: center;
+  
 }
 
+.plan-price-green h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #FFFFFF;
+}
+
+.plan-price-green small {
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 4px;
+ 
+  margin-top: -10px;
+}
+
+
+.plans-essential {
+ 
+  flex: 1;
+  padding: 26px;
+  background: #304F8C;
+  -webkit-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 10px 10px 106px 0px rgba(0, 0, 0, 0.041);
+  border-radius: 10px;
+  text-align: left;
+  margin: auto;
+  max-width: 300px;
+
+}
+.popular-badge {
+  width: 137px;
+  height: 37px;
+  background-color: #94F2E9;
+  border-radius: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.plans-essential h2 {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 10px 0;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.popular-badge p {
+ 
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #304F8C;
+ 
+}
+
+.plans-essential-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: auto;
+}
+
+.plans-essential-content p {
+ 
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  
+}
 .interface p{
   
  
   justify-content: center;
   display: flex;
   padding: 60px;
+ 
+}
+footer {
+  background-color: #111826;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+footer .sugestao {
+  flex: 1;
+  padding: 50px 4%;
+  box-sizing: border-box;
+  text-align: left;
+  margin-bottom: 7px;
+}
+
+
+footer h3 {
+  font-size: 18px;
+  margin-bottom: 22px;
+}
+
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 12px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+footer form {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+footer input[type="email"] {
+  flex: 1;
+  padding: 14px 29px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  color: rgba(17, 24, 38, 0.5);
+  font-weight: 500;
+}
+
+footer input[type="submit"] {
+  background-color: #fff;
+  color: #111826;
+  border: none;
+  padding: 10px 12px 11px;
+  cursor: pointer;
+  font-size: 18px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-weight: 500;
+}
+
+
+footer #redes-sociais {
+  margin-top: 20px;
+}
+
+footer #redes-sociais img {
+  width: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+footer #redes-sociais .facebo {
+  width: 12px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.texto-final{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: #111826;
+  color: #fff;
+  margin-top: 1px;
+  margin-bottom: 0;
+  padding: 20px 0;
+ 
+}
+
+.texto-final p {
+  margin: 0;
  
 }

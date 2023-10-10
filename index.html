@@ -147,47 +147,56 @@
     <h2>Planos</h2>
     <h1>Escolha um plano para experimentar o Sistok</h1>
 </div>
-<div class="planos">
-    <h2>iniciante</h2>
-    <div class="plan-text">
-        <h1> R$50</h1>
-        <SMall>/Mês</SMall>
-        <div class="pant-content">
-        <p>Emissão de notas fiscais, gerenciamento de estoques e controles basicos.</p>
-        <button class="btn-sobre" style="margin-top: 17px;"> Escolher plano</button>
+
+<div class="plans-container">
+    <div class="plans">
+        <h2>Iniciante</h2>
+        <div class="plan-price">
+        <h1>R$ 50</h1>
+        <small>/mês</small>
+        </div>
+        <div class="plan-content">
+            <p>Emissão de notas fiscais, gerenciamento de estoques e controles básicos.</p>
+            <button class="btn-cases">Escolher plano</button>
+        </div>
+    </div>
+    <div class="plans">
+        <h2>Básico</h2>
+        <div class="plan-price">
+        <h1>R$ 100</h1>
+        <small>/mês</small>
+        </div>
+        <div class="plan-content">   
+        <p>Gerenciamento de compras, vendas e finanças.</p>
+        <button class="btn-cases" style="">Escolher plano</button>
     </div>
 </div>
 
-
-    <h2>Básico</h2>
-<div class="plan-text">
-    <h1> R$100</h1>
-    <SMall>/Mês</SMall>
-    <div class="pant-content">
-    <p>Gerenciamento de compras, vendas e finanças.</p>
-    <button class="btn-sobre" style="margin-top: 17px;"> Escolher plano</button>
+<div class="plans-essential">
+<div class="popular-badge">
+    <p>Popular</p>
 </div>
+<h2 class="plan-title-blue">Essencial</h2>
+<div class="plan-price-green">
+    <h1>R$ 150</h1>
+    <small>/mês</small>
 </div>
-
-    <h2>Essencial</h2>
-<div class="plan-text">
-    <h1> R$150</h1>
-    <SMall>/Mês</SMall>
-    <div class="pant-content">
+<div class="plans-essential-content">
     <p>Automações para melhor eficiência da operação.</p>
-    <button class="btn-sobre" style="margin-top: 17px;"> Escolher plano</button>
+    <button class="btn-cases" style="">Escolher plano</button>
 </div>
 </div>
-
-    <h2>Grande</h2>
-<div class="plan-text">
-    <h1> R$150</h1>
-    <SMall>/Mês</SMall>
-    <div class="pant-content">
-    <p>Alto volume de pedidos.</p>
-    <button class="btn-sobre" style="margin-top: 17px;"> Escolher plano</button>
-</div>
-</div>
+    <div class="plans">
+        <h2>Grande</h2>
+        <div class="plan-price">
+        <h1>R$ 200</h1>
+        <small>/mês</small>
+        </div>
+        <div class="plan-content">
+            <p>Alto volume de pedidos.</p>
+            <button class="btn-cases" style="margin-top: 34px;">Escolher plano</button>
+        </div>
+    </div>
 </div>
 <div class="plan-box">
     <div class="imagem-1">
@@ -207,59 +216,54 @@
 </div>
 
 <footer>
-    <ul id="lista 1">
-        <p id="p16">recursos</p>
-
-        <li id="p16">E-commerce</li>
-        <li id="p16">Comércio</li>
-        <li id="p16">Serviço</li>
-        <li id="p16">Atuação</li>
-        <li id="p16">Ajuda</li>
-
-    </ul>
-    <ul id="lista 2">
-        <p id="p16">preços</p>
-        <li id="p16">Planos</li>
-        <li id="p16">Como comprar um plano</li>
-        <li id="p16">Comparar planos</li>
-
-    </ul>
-    <ul id="lista 4">
-        <p id="p16">Contato</p>
-        <li id="p16">Fale Conosco</li>
-
-    </ul>
-    <ul id="lista 5">
-        <p id="p16">Institucional</p>
-        <li id="p16">Sobre nós</li>
-        <li id="p16">Trabalhe conosco</li>
-        <li id="p16">Política de privacidade</li>
-
-    </ul>
-    <span>
-        Assine nossa newsletter.
-
-        <input type="text" placeholder="email">
-    </span>
-
+    <div class="sugestao">
+        <h3>Recursos</h3>
+        <ul>
+            <li><a href="#">E-commerce</a></li>
+            <li><a href="#">Comércio</a></li>
+            <li><a href="#">Serviço</a></li>
+            <li><a href="#">Atuação</a></li>
+            <li><a href="#">Ajuda</a></li>
+        </ul>
+    </div>
+    <div class="sugestao">
+        <h3>Preços</h3>
+        <ul>
+            <li><a href="#">Planos</a></li>
+            <li><a href="#">Como comprar um plano?</a></li>
+            <li><a href="#">Comparar planos</a></li>
+        </ul>
+    </div>
+    <div class="sugestao">
+        <h3>Contato</h3>
+        <ul>
+            <li><a href="#">Fale Conosco</a></li>
+        </ul>
+    </div>
+    <div class="sugestao">
+        <h3>Institucional</h3>
+        <ul>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Trabalhe Conosco</a></li>
+            <li><a href="#">Política de privacidade</a></li>
+        </ul>
+    </div>
+    <div class="sugestao">
+        <h3>Assine nossa newsletter!</h3>
+        <form>
+            <input type="email" placeholder="E-mail">
+            <input type="submit" value="➜" id="submit-button"> 
+        </form>
+        <div id="redes-sociais">
+            <img src="assets/instagram.svg" alt="Instagram">
+            <img src="assets/in.svg" alt="LinkedIn">
+            <img class="facebo" src="assets/facebook.svg" alt="Facebook">
+        </div>
+    </div>
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="texto-final">
+    <p>Copyright 2021 Sistok</p>
+</div>    
 
 
 
